@@ -38,8 +38,7 @@ router.post('/publish', async (ctx, next) => {
   });
 
   subscribers = [];
-
-
+  ctx.body = 'ok';
 });
 
 app.use(router.routes());
